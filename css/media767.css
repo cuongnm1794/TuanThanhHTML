@@ -1,0 +1,84 @@
+.social{
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.social img{
+    height: 50px;
+    width: 50px;
+}
+.icon{
+    width: 50px;height: 50px;
+}
+
+.social-connect{
+    display: flex; margin: 10px
+}
+
+.text-icon{
+        padding: 5px;
+        margin: 0 10px; width: 40%; overflow: hidden;
+}
+.btn-icon{
+    width: 40%; height:50px
+}
+
+.recent-news-box{
+    margin-top: 20px !important;
+}
+
+.popular-box{
+    padding: 5px !important;
+}
+.popular-box .div-box{
+    width: 100%;
+}
+.back-to-top{
+    position: fixed;
+    right: 100px;
+    background-color:#2d323a;
+    bottom: 100px;
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+/* CSS */
+    
+    .sidebar-image{
+        margin:0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .content-sidebar-image{
+        margin: 20px;
+    }
+
+    .img-content > img{
+        padding: 5px !important;
+        width: 100%;
+    }
+    
+    .text-icon{
+        margin: 0 10px; width: 55%; overflow: hidden;
+    }
+    .btn-icon{
+        width: 35%; height:50px
+    }
+
+    .social-connect{
+        margin: 10px 0;
+        font-size: 0.7em;
+    }
+    
+    .back-to-top{
+        right:20px
+    }
+    .our-sponors, .twitter-feed{
+        font-size: 0.7em;
+    }
+    .search input{
+        width: 90%;
+    }
+
+
+}
