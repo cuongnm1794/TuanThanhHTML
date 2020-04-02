@@ -815,3 +815,27 @@ footer {
     outline: none;
   }
 }
+
+
+@media (min-width: 768px){
+  .navbar-nav{
+      float:none;
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+  }
+}
+
+.navbar li.active{
+  background-color: white;
+}
+#navbar{
+  border:0
+}
+#menu{
+  background:white; border: none
+}
+
+.background-white{
+  background:white !important;
+}
