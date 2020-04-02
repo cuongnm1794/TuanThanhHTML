@@ -149,8 +149,11 @@ main {
   width: 10%;
 }
 .popular-box, .category-box, .recent-news-box {
-  margin: 0 !important;
+  margin-top: 5px !important;
   padding: 0 !important;
+}
+.popular-box .div-box{
+  width: 100%;
 }
 .div-box {
   background-color: #fff;
@@ -451,7 +454,10 @@ main {
   border-radius: 3px;
   display: flex;
   height: 50px;
-  margin: 10px;
+  padding: 5px;
+  margin: 0 10px;
+  width: 40%;
+  overflow: hidden;
 }
 .button-icons {
   float: right;
@@ -466,8 +472,8 @@ main {
 .btn-icon {
   background-color: #d9d9d7;
   border: none;
-  height: 100%;
-  width: 100%;
+  height: 40%;
+  width: 50%;
 }
 .sidebar-image {
   background-image: 
@@ -687,9 +693,29 @@ footer {
   display: flex;
   margin-top: 50px;
 }
+
 .social-icon {
   margin-right: 10px;
 }
+
+.social{
+  background-color: #fff;
+  overflow: auto;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.social img{
+  height: 50px;
+  width: 50px;
+}
+.icon{
+  width: 50px;height: 50px;
+}
+
+.social-connect{
+  display: flex; margin: 10px
+}
+
 .instagram {}
 .img-instagrams {
   overflow: auto;
@@ -759,9 +785,12 @@ footer {
 .back-to-top {
   border: 1px solid;
   border-radius: 5px;
-  bottom: 150px;
-  position: absolute;
-  right: -80px;
+  bottom: 100px;
+  position: fixed;
+  right: 100px;
+  background-color:#2d323a;
+  display: none;
+
 }
 .back-to-top:hover {
   background-color: #f97d00;
