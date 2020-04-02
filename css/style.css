@@ -149,12 +149,10 @@ main {
   width: 10%;
 }
 .popular-box, .category-box, .recent-news-box {
-  margin-top: 5px !important;
+  margin-top: 20px !important;
   padding: 0 !important;
 }
-.popular-box .div-box{
-  width: 100%;
-}
+
 .div-box {
   background-color: #fff;
   border-radius: 5px 5px 0 0;
